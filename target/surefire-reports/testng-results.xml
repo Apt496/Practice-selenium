@@ -1,19 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38843" started-at="2020-06-18T05:20:48Z" finished-at="2020-06-18T05:21:27Z">
+  <suite started-at="2020-09-20T16:29:50 IST" name="Suite" finished-at="2020-09-20T16:30:53 IST" duration-ms="63301">
     <groups>
     </groups>
-    <test name="Test" duration-ms="38843" started-at="2020-06-18T05:20:48Z" finished-at="2020-06-18T05:21:27Z">
+    <test started-at="2020-09-20T16:29:50 IST" name="Test" finished-at="2020-09-20T16:30:53 IST" duration-ms="63301">
       <class name="TestAutomation.Pratice2.Homepagetest">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:TestAutomation.Pratice2.Homepagetest@51b7e5df]" name="basePageNavigation" duration-ms="17443" started-at="2020-06-18T10:51:09Z" finished-at="2020-06-18T10:51:27Z">
+        <test-method signature="basePageNavigation()[pri:0, instance:TestAutomation.Pratice2.Homepagetest@48524010]" started-at="2020-09-20T16:30:34 IST" name="basePageNavigation" finished-at="2020-09-20T16:30:53 IST" duration-ms="18768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
       </class> <!-- TestAutomation.Pratice2.Homepagetest -->
       <class name="TestAutomation.Pratice2.LoginPagetest">
-        <test-method status="PASS" signature="doLogin()[pri:0, instance:TestAutomation.Pratice2.LoginPagetest@351d0846]" name="doLogin" duration-ms="21384" started-at="2020-06-18T10:50:48Z" finished-at="2020-06-18T10:51:09Z">
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestAutomation.Pratice2.LoginPagetest@3ee0fea4]" started-at="2020-09-20T16:29:50 IST" name="doLogin" data-provider="getData" finished-at="2020-09-20T16:30:15 IST" duration-ms="25109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456879@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestAutomation.Pratice2.LoginPagetest@3ee0fea4]" started-at="2020-09-20T16:30:15 IST" name="doLogin" data-provider="getData" finished-at="2020-09-20T16:30:34 IST" duration-ms="19369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->

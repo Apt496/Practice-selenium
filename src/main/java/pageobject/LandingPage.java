@@ -10,7 +10,7 @@ public class LandingPage extends Base {
 
 	public WebDriver driver;
 
-	By signin=By.xpath("//a[@class='login']");
+	By signin = By.xpath("//a[@class='login']");
 
 	public LandingPage(WebDriver driver) {
 
