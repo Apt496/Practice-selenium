@@ -8,21 +8,27 @@ import org.testng.annotations.Test;
 import pageobject.LandingPage;
 import pageobject.LoginPage;
 import resources.Base;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class LoginPagetest extends Base {
+	public static Logger log = LogManager.getLogger(Base.class.getName());
 
 	@Test(dataProvider = "getData")
 	public void doLogin(String Username, String Password, String text) throws IOException, InterruptedException {
 		driver = initializeDriver();
-
+		log.trace("start loginpagetest");
 		LandingPage lp = new LandingPage(driver);
 		lp.getLogin().click();
 		LoginPage lp1 = new LoginPage(driver);
 		lp1.getUsername().sendKeys(Username);
 		System.out.println("ID");
+		log.trace("username done");
 		lp1.getPassword().sendKeys(Password);
 		System.out.println("pass");
+		log.trace("password done");
 		lp1.loginbutton().click();
+		log.trace("closing loginpagetest");
 		driver.close();
 	}
 

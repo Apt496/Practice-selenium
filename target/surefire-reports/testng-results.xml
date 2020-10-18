@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-20T16:29:50 IST" name="Suite" finished-at="2020-09-20T16:30:53 IST" duration-ms="63301">
+  <suite started-at="2020-10-18T18:19:27 IST" name="Suite" finished-at="2020-10-18T18:21:10 IST" duration-ms="103166">
     <groups>
     </groups>
-    <test started-at="2020-09-20T16:29:50 IST" name="Test" finished-at="2020-09-20T16:30:53 IST" duration-ms="63301">
+    <test started-at="2020-10-18T18:19:27 IST" name="Test" finished-at="2020-10-18T18:21:10 IST" duration-ms="103166">
       <class name="TestAutomation.Pratice2.Homepagetest">
-        <test-method signature="basePageNavigation()[pri:0, instance:TestAutomation.Pratice2.Homepagetest@48524010]" started-at="2020-09-20T16:30:34 IST" name="basePageNavigation" finished-at="2020-09-20T16:30:53 IST" duration-ms="18768" status="PASS">
+        <test-method signature="basePageNavigation()[pri:0, instance:TestAutomation.Pratice2.Homepagetest@3b7d3a38]" started-at="2020-10-18T18:20:48 IST" name="basePageNavigation" finished-at="2020-10-18T18:21:10 IST" duration-ms="21883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
       </class> <!-- TestAutomation.Pratice2.Homepagetest -->
       <class name="TestAutomation.Pratice2.LoginPagetest">
-        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestAutomation.Pratice2.LoginPagetest@3ee0fea4]" started-at="2020-09-20T16:29:50 IST" name="doLogin" data-provider="getData" finished-at="2020-09-20T16:30:15 IST" duration-ms="25109" status="PASS">
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestAutomation.Pratice2.LoginPagetest@1046d517]" started-at="2020-10-18T18:19:27 IST" name="doLogin" data-provider="getData" finished-at="2020-10-18T18:20:14 IST" duration-ms="46919" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestAutomation.Pratice2.LoginPagetest@3ee0fea4]" started-at="2020-09-20T16:30:15 IST" name="doLogin" data-provider="getData" finished-at="2020-09-20T16:30:34 IST" duration-ms="19369" status="PASS">
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestAutomation.Pratice2.LoginPagetest@1046d517]" started-at="2020-10-18T18:20:14 IST" name="doLogin" data-provider="getData" finished-at="2020-10-18T18:20:48 IST" duration-ms="34299" status="PASS">
           <params>
             <param index="0">
               <value>

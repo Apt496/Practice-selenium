@@ -1,0 +1,9 @@
+19:21:47.066 [main] TRACE resources.Base - start
+19:21:51.205 [main] TRACE resources.Base - close homepagetest
+19:33:31.876 [main] TRACE resources.Base - start homepagetest
+19:33:37.369 [main] TRACE resources.Base - close homepagetest
+19:33:57.730 [main] TRACE resources.Base - start loginpagetest
+19:34:00.145 [main] TRACE resources.Base - username done
+19:34:00.198 [main] TRACE resources.Base - password done
+19:34:01.468 [main] TRACE resources.Base - closing loginpagetest
+19:34:21.305 [main] TRACE resources.Base - start loginpagetest
